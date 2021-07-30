@@ -1,0 +1,35 @@
+Архив с утилитами
+http://webinars-b.stqa.ru/mobile_automation_java/v1_430257/lesson1/Tools.zip
+
+Mindmap по инструментам автоматизации
+https://mm.tt/1008670131?t=UkAjbP3tVb
+
+Документация по Appium Capabilities
+http://appium.io/docs/en/writing-running-appium/running-tests/
+
+Мануал по локаторам
+https://docs.google.com/document/d/1PdfKMDfoqFIlF4tN1jKrOf1iZ1rqESy2xVMIj3uuV3g/pub#h.jb66b5al5oaq
+
+Параметры Path:
+
+Windows:
+
+%ANDROID_HOME%/tools
+
+%ANDROID_HOME%/tools/bin
+
+%ANDROID_HOME%/platform-tools
+
+Одной строкой, можно скопировать и добавить в конец Path: ;%ANDROID_HOME%/tools;%ANDROID_HOME%/tools/bin;%ANDROID_HOME%/platform-tools
+
+Mac:
+
+$ANDROID_HOME/tools
+
+$ANDROID_HOME/tools/bin
+
+$ANDROID_HOME/platform-tools
+
+Одной строкой, можно скопировать и добавить в .bash_profile:
+
+export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_HOME/platform-tools”
